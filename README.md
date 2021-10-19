@@ -22,3 +22,15 @@ npm run test
 ```
 npm run ci
 ```
+
+## To-do
+
+### Fix ```This element <input> is not visible because it has CSS property: display: none```
+
+The invisible ```<input>``` will not be trigged in Cypress. 
+
+Sponsor this project to speed up for this fix.
+
+### Docs
+
+Docs for more technical details.
