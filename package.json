@@ -1,0 +1,16 @@
+{
+  "name": "cypress-vue-file-input-trigger",
+  "version": "0.1.1",
+  "description": "Cypress E2E Test File Input Trigger for Vue",
+  "productName": "cypress-vue-file-input-trigger",
+  "author": "Tan Shuai <opensource@tanshuai.com>",
+  "scripts": {
+    "test": "npx vue serve CypressFileInputTrigger.vue & npx cypress open",
+    "ci": "npx vue serve CypressFileInputTrigger.vue & npx cypress run"
+  },
+  "devDependencies": {
+    "@vue/cli": "^4.5.14",
+    "cypress": "^8.6.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
